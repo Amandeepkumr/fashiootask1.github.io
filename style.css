@@ -1,0 +1,538 @@
+/* GLOBAL SECTION */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffb121;
+}
+
+/* RADHIKA PART */
+.heroSection {
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  color: white;
+  margin: auto;
+  height: 5vh;
+}
+
+.aboutSection {
+  width: 13%;
+}
+
+.aboutSection ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.switcher div {
+  height: 5px;
+  width: 40px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background: white;
+}
+
+.switcher div:nth-child(1) {
+  margin-left: 10px;
+}
+.switcher div:nth-child(2) {
+  margin-left: 5px;
+}
+
+/* HERO MAIN SECTION */
+
+.heroMain {
+  display: flex;
+}
+
+.heroHeader {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.heroHeader h1 {
+  font-size: 7.5rem;
+  color: white;
+}
+
+.heroHeader button {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 3rem;
+  font-weight: 400;
+  border: none;
+  color: white;
+  margin-top: 4rem;
+  background: #160c42;
+}
+
+.heroStory {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroStory p {
+  width: 50%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.storyDescription {
+  margin-left: 3rem;
+}
+.storyDescription div {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.storyDescription .line {
+  width: 5px;
+  height: 80px;
+  background: purple;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.heroImage {
+  position: relative;
+}
+
+#image1 {
+  margin-right: 5rem;
+}
+
+#image2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+}
+
+/* CONSULTANCY SECTION */
+.ourCounsultancy {
+  background: white;
+  padding: 2rem 0rem;
+}
+
+.counsultancyDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counsultancyDescription h1 {
+  font-size: 3.7rem;
+  letter-spacing: 0.05em;
+}
+
+.counsultancyDescription span {
+  color: #ffb121;
+  font-family: "Barlow", sans-serif;
+}
+
+/* MIRAL PART */
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #160c42;
+  margin: 3rem 0rem;
+}
+
+.cardImage {
+  background-color: #ffb121;
+  box-shadow: 0px 4px 24px #946102;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.cardImage img {
+  height: 80px;
+}
+
+/* OUR SERVICE PAGE */
+
+.ourServiceContainer {
+  font-family: "Barlow", sans-serif;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+/* HEADER SECTION */
+
+.header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.05em;
+}
+
+.header div {
+  background-color: #ffb121;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  box-shadow: inset 0px 4px 24px rgba(0, 0, 0, 0.25);
+  margin: 0rem 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+/* CUSTOMER CARD SECTION */
+
+.customersCards {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: self-start;
+  align-items: center;
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+
+.cardc {
+  background-color: #ffb121;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 100px 0px;
+}
+
+.cardc p {
+  margin: 3.5rem 0rem;
+  font-size: 1.1rem;
+}
+
+/* FASHIONIST CARDS SECTION */
+
+.fashionistCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: self-start;
+  align-items: center;
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
+
+.cardf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  border-radius: 100px 0px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+}
+
+.cardf p {
+  padding: 0rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* REGISTER SECTION */
+.registerSection {
+  background-color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+.register {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem 0rem;
+}
+
+.register h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.05em;
+  margin: 1rem 0rem;
+}
+
+.register p {
+  font-size: 2.25rem;
+  letter-spacing: 0.05em;
+}
+
+.register span {
+  color: #ffb121;
+}
+
+.registerButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5rem;
+}
+
+.registerButton {
+  background-color: #160c42;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5rem 5rem;
+  border-radius: 12px;
+}
+
+.registerButtonContainer img {
+  position: absolute;
+  bottom: -23%;
+  right: 26%;
+}
+
+/* AMANDEEP PART */
+#contact {
+  padding: 15px 10px;
+  background-color: #ffb121;
+  /* background: linear-gradient(240deg,rgb(228, 253, 228) 55%, white 0%); */
+}
+.con-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 240px;
+  padding-right: 0px;
+}
+.con-l-col {
+  flex-basis: 50%;
+}
+.con-l-col h1 {
+  font-size: 50px;
+}
+.con-l-col p {
+  font-size: 25px;
+  color: white;
+}
+.con-l-col img {
+  padding-left: 200px;
+}
+.con-r-col {
+  flex-basis: 30%;
+  padding-left: 50px;
+}
+.con-r-col img {
+  width: 480px;
+  height: 420px;
+}
+
+.con-row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-right: 0px;
+}
+.con-l-col1 {
+  flex-basis: 20%;
+}
+.con-lr-col1 {
+  flex-basis: 23%;
+  padding-left: 20px;
+}
+.con-r-col1 {
+  flex-basis: 10%;
+  padding-left: 50px;
+}
+.con-r-col img {
+  width: 480px;
+  height: 420px;
+}
+
+/* RANJITH PART */
+body {
+  margin: 0px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.consultants {
+  padding: 10px 19% 0px 19%;
+  background-color: #ffb121;
+}
+
+.title p {
+  font-size: 42px;
+  text-align: Left;
+  color: #160c42;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  padding: 15px 0px 40px 0px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 0px 15px 60px 15px;
+}
+
+.card {
+  background: #ffb121;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  padding: 5px 5px;
+  position: relative;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 21px;
+  width: 80%;
+}
+
+.new {
+  padding: 0% 0% 0% 20%;
+  float: left;
+  width: 80%;
+}
+
+.new h5 {
+  font-size: 21px;
+  text-align: Left;
+  color: #616161;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  line-height: 28px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.title1 p {
+  font-size: 42px;
+  text-align: Left;
+  color: #160c42;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+.image img {
+  padding: 3% 2% 0% 0%;
+  width: 20%;
+  height: auto;
+}
+
+.image1 img {
+  padding: 6% 2% 5% 0px;
+  width: 20%;
+  height: auto;
+}
+
+hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 12px;
+  border: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), #ffb121);
+}
+
+.card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 10%;
+  height: auto; */
+  border-radius: 50%;
+  margin-top: 0.5%;
+}
+
+.card h3 {
+  font-size: 17px;
+  color: black;
+  padding-left: 55%;
+  text-align: left;
+  margin-top: 17%;
+  margin-bottom: 0px;
+}
+
+.card h4 {
+  font-size: 17px;
+  color: white;
+  padding-left: 55%;
+  margin-top: 0px;
+  margin-bottom: 6%;
+}
+
+.card p {
+  font-size: 13px;
+  color: black;
+  padding: 30px 20px 15px 30px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 3% 25% 3% 25%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 12%;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Barlow;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+.what {
+  background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 20%;
+    height: auto;
+  }
+}
